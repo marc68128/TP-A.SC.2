@@ -9,7 +9,7 @@ namespace Enumerator
 {
     public class People : IEnumerable
     {
-        private Person[] _persons; 
+        private Person[] _persons;
         public People(Person[] persons)
         {
             _persons = persons;
